@@ -1,0 +1,38 @@
+{
+  "name": "programming",
+  "version": "1.0.0",
+  "description": "node in detail",
+  "keywords": [
+    "node"
+  ],
+  "license": "ISC",
+  "author": "fozia",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": " nodemon server.js"
+    
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "morgan": "^1.10.1",
+    "superagent": "^10.2.3"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.7.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
